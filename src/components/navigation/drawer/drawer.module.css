@@ -5,7 +5,7 @@
   bottom: 0;
   width: 80%;
   max-width: 300px;
-  padding: 20px 10px;
+  padding: 80px 10px 20px;
   box-sizing: border-box;
   background: #fff;
   z-index: 90;
@@ -40,4 +40,5 @@
 .drawer ul li a:hover,
 .active {
   opacity: .7;
+  text-decoration: underline;
 }
