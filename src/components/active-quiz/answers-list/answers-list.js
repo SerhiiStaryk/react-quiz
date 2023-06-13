@@ -8,6 +8,7 @@ const AnswersList = props => {
         <AnswerItem
           key={index}
           answer={item}
+          state={props.state ? props.state[item.id] : null}
           onAnswerClick={props.onAnswerClick}
         />
       ))}
