@@ -1,6 +1,6 @@
 import { Component } from 'react';
 import classes from './drawer.module.css';
-import Backdrop from '../../UI/Backdrop/backdrop';
+import Backdrop from '../../UI/backdrop/backdrop';
 import { NavLink } from 'react-router-dom';
 
 const links = [
